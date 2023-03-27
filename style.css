@@ -1,0 +1,75 @@
+.topo {
+  text-align: left;
+  color: white
+}
+
+.topo ul li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.header {
+  background-color:black;
+}
+
+.card {
+  background-color:#f1f1f1;
+  width: 300px;
+  padding: 25px;
+  color: rgb(0, 0, 0);
+  margin: 50px;
+  border: solid 10px;
+  border-radius: 25px;
+  border-color:black;
+}
+
+.button {
+  text-align: right;
+  background-color: black;
+  color: white;
+  border: solid 5px;
+  border-radius: 10px;
+  border-color:black;
+  cursor: pointer;
+}
+
+.card-image {
+  border-radius: 25px;
+  width: 100% ;
+}
+
+.card-list {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner {
+  height: 500px;
+}
+
+/* Defina a altura do elemento de paralaxe */
+.parallax {
+  height: 500px;
+  /* Ajuste o valor de altura conforme necessário */
+  background-image: url('https://static.baratocoletivo.com.br/2019/1011/oferta_15708301861262_destaque.jpg');
+  /* Defina a imagem de fundo */
+  background-attachment: fixed;
+  /* Defina a imagem de fundo como fixa */
+  background-position: center;
+  /* Defina a posição da imagem como centralizada */
+  background-repeat: no-repeat;
+  /* Evite que a imagem de fundo seja repetida */
+  background-size: cover;
+  /* Ajuste a imagem de fundo ao tamanho do elemento pai */
+}
+
+
+
